@@ -1,0 +1,18 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: SampleHub_development
+  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: SampleHub_test
+  pool: 5
+
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: SampleHub_production
+  pool: 5
