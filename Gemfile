@@ -24,6 +24,8 @@ end
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'capybara', '~> 2.0'
+	gem 'factory_girl_rails', '~> 4.2'
 end
 
 gem 'jquery-rails'
