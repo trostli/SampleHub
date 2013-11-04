@@ -1,7 +1,8 @@
 class CreateSamples < ActiveRecord::Migration
   def up
   	create_table :samples do |t|
-  		t.string :title
+  		t.belongs_to :user
+      t.string :title
   		t.string :url
 
   		t.timestamps

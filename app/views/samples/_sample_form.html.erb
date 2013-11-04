@@ -1,0 +1,11 @@
+<p>Submit a sample:</p>
+
+<%= form_for @sample do |f| %>
+  <%= f.label :title %>:
+  <%= f.text_field :title %><br>
+  <%= f.label :sample_url %>:
+  <%= f.text_field :url %><br>
+  <div class='submit-button'>
+  <%= f.submit "Submit" %>
+  </div>
+<% end %>

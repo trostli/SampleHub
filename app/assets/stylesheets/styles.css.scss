@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Stint+Ultra+Expanded);
+
+.nav-primary {
+		position: fixed;
+		left: 0;
+		top: 0;
+    background-color:#111;
+    background-image: -webkit-linear-gradient(-90deg,#000,#45484d);
+    color: #ecf0f1;
+    float:left;
+    width:8em;
+    height:100%;
+
+    a {
+    	text-decoration: none;
+    }
+
+    .logo {
+    	font-family: 'Stint Ultra Expanded';
+    	height: 94px;
+    	text-align: center;
+    	background-image: url('http://static.freepik.com/free-photo/dynamic-audio-waves----vector_34-40986.jpg');
+    	background-size: 115px;
+    	border-bottom: 1px solid #fff;
+    }
+  }
+
+.board {
+	padding: 0 0 50px 160px;
+	margin-left: -20px;
+	min-height: 400px;
+	min-width: 960px;
+
+	h1 {
+		padding: 48px 28px 10px 28px;
+		margin: 0;
+		margin-left: -29px;
+		margin-bottom: 30px;
+		border-bottom: 1px solid #eee;
+		font-weight: 100;
+		font-size: 30px;
+		color: #8b8b8b;
+		background-color: #f1f1f1;
+
+	}
+}
